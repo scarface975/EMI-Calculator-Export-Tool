@@ -38,11 +38,11 @@ A comprehensive loan amortization calculator with a user-friendly graphical inte
 1. Clone or download the project files
 2. Navigate to the project directory:
    ```bash
-   cd FM_assignment
+   cd EMI-Calculator-Export-Tool
    ```
 3. Run the application:
    ```bash
-   python FM_assignment_EAC22009.py
+   python Loan_Amortization_Calculator.py
    ```
 
 ## Usage
@@ -98,8 +98,8 @@ n = Total number of months
 ## File Structure
 
 ```
-FM_assignment/
-├── FM_assignment_EAC22009.py    # Main application file
+EMI-Calculator-Export-Tool/
+├── Loan_Amortization_Calculator.py    # Main application file
 ├── README.md                      # This file
 └── loan_amortization.csv         # Sample exported schedule (generated)
 ```
@@ -153,7 +153,7 @@ month,payment,interest,principal,balance
 The application also supports command-line arguments:
 
 ```bash
-python FM_assignment_EAC22009.py -p 20000000 -r 10 --years 10 --csv output.csv
+python Loan_Amortization_Calculator.py -p 20000000 -r 10 --years 10 --csv output.csv
 ```
 
 Options:
@@ -212,7 +212,7 @@ This project is provided as-is for educational and commercial use.
 
 ## Author
 
-**Name**: EAC22009
+**Name**: Aditya Ithamraju
 **Purpose**: Financial Management Assignment - Loan Amortization Calculator
 
 ## Version History
@@ -242,3 +242,4 @@ For issues, questions, or suggestions, please review the code comments or contac
 
 **Created**: February 2026
 **Last Updated**: February 18, 2026
+
